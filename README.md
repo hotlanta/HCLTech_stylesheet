@@ -1,1 +1,1 @@
-# HCLTech_stylesheet
+# HCLTech stylesheet development

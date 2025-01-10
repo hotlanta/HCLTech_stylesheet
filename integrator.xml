@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="com.hcltech.ctgpdf">
+  <target name="dita2hclctgpdf.init">
+    <property location="${dita.plugin.com.hcltech.ctgpdf.dir}/cfg" name="customization.dir" />
+    <property name="pdf2.i18n.skip" value="false" />
+    <property location="${dita.plugin.com.hcltech.ctgpdf.dir}/xsl/fo/topic2fo_shell_fop.xsl" name="args.xsl.pdf" />
+    <property name="args.chapter.layout" value="BASIC" />
+    <property name="args.bookmark.style" value="COLLAPSED" />
+    <property name="args.gen.task.lbl" value="YES" />
+    <property name="args.fo.include.rellinks" value="none" />
+    <property name="args.fo.userconfig" value="${dita.dir}\plugins\com.hcltech.ctgpdf\fonts\fop.xconf"/>
+  </target>
+  <target depends="dita2hclctgpdf.init, dita2pdf2" name="dita2hclctgpdf" />
+</project>

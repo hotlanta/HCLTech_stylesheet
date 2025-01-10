@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148398">
+    <title>Version history</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <conbody>
+      <table>
+      <title>Version history</title>
+        <tgroup cols="4">
+          <colspec colname="col1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="col2" colnum="2" colwidth="1.0*"/>
+          <colspec colname="col3" colnum="3" colwidth="1.0*"/>
+          <colspec colname="col4" colnum="4" colwidth="2.0*"/>
+        <thead>
+          <row>
+            <entry>Revision</entry>
+            <entry>Date</entry>
+            <entry>Owner</entry>
+            <entry>Details</entry>
+          </row>
+        </thead>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>3 March 2023</entry>
+              <entry>Péter Ács</entry>
+              <entry>Initial version</entry>
+            </row>
+          <row>
+            <entry>2</entry>
+            <entry>31 March 2023</entry>
+            <entry>Eric Szegedi</entry>
+            <entry>DITA conversion</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>4 April 2023</entry>
+            <entry>Péter Ács</entry>
+            <entry>Review and adjust structure</entry>
+          </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </conbody>
+  </concept>

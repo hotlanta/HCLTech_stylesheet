@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Ref129262046">
+      <title>Alternative approach: Using the oXygen DITA-OT instance</title>
+  <shortdesc>You can also install the plugin under the DITA-OT instance shipped with oXygen. This
+    method can be helpful if you are experiencing obscure build errors or need to set the
+      <codeph>fix.external.refs.com.oxygenxml</codeph> DITA build parameter to
+    <codeph>true</codeph>.</shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="context_u53_vpj_zwb">
+        <p>There are less benefits than drawbacks to this approach.</p>
+        <p>
+          <b>Benefits:</b>
+        </p>
+        <ul>
+          <li>No need to install a standalone DITA-OT instance.</li>
+          <li>Plugin integration in oXygen is easier.</li>
+          <li>You use the same DITA-OT instance for building PDF and Web
+output.</li>
+        </ul>
+        <p>
+          <b>Drawbacks:</b>
+        </p>
+        <ul>
+          <li>Installation requires administrative permission.</li>
+          <li>Plugin updates are troublesome and require administrative
+permission.</li>
+          <li>Troublesome process using DITA from the command line.</li>
+          <li>The DITA-OT version can change with an oXygen upgrade, leading to compatibility
+          issues.</li>
+        </ul>
+        <p>Still, if you insist, the correct process is the following.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Perform <xref keyref="install_pdf_stylesheet_plugin"/>, but perform steps in the
+            <filepath>C:\Program Files\Oxygen XML Editor
+            25\frameworks\dita\DITA-OT3.x\plugins</filepath> folder as an Administrator..</cmd>
+      </step>
+          <step><cmd>Launch oXygen as an Administrator and execute the <b>Run
+DITA-OT Integrator</b> transformation scenario to integrate
+              the plugin.</cmd></step>
+      <step>
+        <cmd>Perform <xref keyref="setup_oxygen_external_ditaot_plugin"/>, but change the value of
+          the <codeph>dita.dir</codeph> parameter to <codeph>${configured.ditaot.dir}</codeph></cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

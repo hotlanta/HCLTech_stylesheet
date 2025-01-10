@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148409">
+      <title>Images</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <author/>
+    <author type="creator">Péterács</author>
+    <critdates>
+      <revised modified="2023-10-22"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+      <conbody>
+    <note id="note_rhp_nkh_wyb" type="important">
+      <p>Apply the <codeph>placement=break</codeph> attribute on the <codeph>image</codeph> element
+        to make it fit the page width.</p>
+      <p>The <codeph>scalefit=yes</codeph> attribute setting does the same, but figure title
+        placement will be incorrect.</p>
+      <p>Revert to using a manual <codeph>scale</codeph> attribute setting if the automatic approach
+        does not work.</p>
+    </note>
+  </conbody>
+    </concept>

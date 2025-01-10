@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148410">
+  <title>Forced line break in table cells</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+      <conbody>
+        <p>The <codeph>outputclass=force-break</codeph> attribute is maintained for legacy
+      compatibility reasons.</p>
+        <p>When outputting long strings in a constrained location (for
+example, a table cell) you can use this attribute to force the
+string to break at the table border, to avoid content overlapping
+the next cell.</p>
+        <p>It can be applied on the following elements:</p>
+        <ul>
+          <li>apiname</li>
+          <li>codeph</li>
+          <li>cmdname</li>
+          <li>filepath</li>
+          <li>varname</li>
+        </ul>
+        <p>This feature is a workaround and must be used carefully and
+sparingly. Make sure the element does not include any child
+elements – these will be ignored if the attribute is
+applied.</p>
+      </conbody>
+    </concept>

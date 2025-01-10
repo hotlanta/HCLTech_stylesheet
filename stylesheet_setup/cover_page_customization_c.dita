@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148412">
+      <title>Cover page customization</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+      <conbody>
+        <p>The following elements in the following order are picked up and
+outputted to the document cover:</p>
+        <table>
+      <title>Cover page customization</title>
+          <tgroup cols="2">
+            <colspec colname="col1" colnum="1" colwidth="1*"/>
+            <colspec colname="col2" colnum="2" colwidth="1*"/>
+        <thead>
+          <row>
+            <entry>DITAMAP element</entry>
+            <entry>Contains</entry>
+          </row>
+        </thead>
+            <tbody>
+              <row>
+                <entry><codeph>&lt;booktitle&gt;/&lt;mainbooktitle&gt;</codeph> or
+                <codeph>&lt;title&gt;</codeph></entry>
+                <entry>Main document title. Must contain the product name and the
+document name</entry>
+              </row>
+              <row>
+                <entry><codeph>&lt;booktitle&gt;/&lt;booktitlealt&gt;</codeph></entry>
+                <entry>Document subtitle. To be used if the document is targeted for
+different systems or audiences</entry>
+              </row>
+              <row>
+                <entry><codeph>&lt;bookmeta&gt;/&lt;prodinfo&gt;/&lt;vrmlist&gt;/&lt;vrm&gt;/@version,
+                @release</codeph>
+            </entry>
+                <entry>Product release information. Put the major version in the
+version attribute and the minor version in the release attribute.
+The modification attribute is not considered for the output.</entry>
+              </row>
+              <row>
+                <entry><codeph>&lt;bookmeta&gt;/&lt;bookid&gt;/&lt;edition></codeph></entry>
+                <entry>
+                  <p>Document edition.</p>
+                  <p>No additional boilerplate text added.</p>
+                </entry>
+              </row>
+              <row>
+                <entry><codeph>&lt;bookmeta&gt;/&lt;bookid&gt;/&lt;bookpartno&gt;</codeph></entry>
+                <entry>
+                  <p>Document part number.</p>
+                  <p>Prefixed by “Part number:”</p>
+                </entry>
+              </row>
+              <row>
+                <entry><codeph>&lt;bookmeta&gt;/&lt;permissions&gt;/@view</codeph></entry>
+                <entry>Confidentiality statement. See the corresponding chapter.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <p>The cover photo is currently hard-coded in the stylesheet
+source.</p>
+      </conbody>
+    </concept>

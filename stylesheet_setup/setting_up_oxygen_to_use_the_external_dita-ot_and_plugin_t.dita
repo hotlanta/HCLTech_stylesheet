@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Ref129261148">
+      <title>Setting up oXygen to use the external DITA-OT and plugin</title>
+  <shortdesc/>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context id="context_u53_vpj_nwb"><p>The <filepath>hclctg.scenarios</filepath> file located in the root of the cloned Git repository
+        contains the oXygen transformation scenario calling the external DITA-OT installation with
+        the HCLTech plugin and predefined transformation attributes.</p>
+        <p>The supplied scenario file calls the DITA-OT instance deployed in
+          <filepath>C:\DITA\dita-ot-3.7.4</filepath>.</p>
+      <note id="note_tb4_x5j_zwb">You must not change the default DITA-OT engine in oXygen system
+        preferences. Doing so can break other transformation types and can have a significant
+        negative impact on oXygen validation. Always set the custom DITA-OT engine in the
+        transformation scenario instead.</note>
+    </context>
+    <steps>
+      <step>
+        <cmd>Start oXygen and click the wrench icon to open the <uicontrol>Configure transformation
+            scenarios</uicontrol> window.</cmd>
+      </step>
+      <step>
+        <cmd>Click the cogwheel and select <uicontrol>Import Scenarios</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Navigate to <filepath>C:\DITA\dita-ot-3.7.4</filepath> and select the
+            <filepath>hclctg.scenarios</filepath> file.</cmd>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Import</uicontrol> to finish importing the scenario.</cmd>
+      </step>
+    </steps>
+    <result id="result_kbm_s4m_1xb">Two new entries are available under transformation scenarios:
+        <b>HCLTech CTG PDF</b> and <b>HCLTech CTG PDF Draft</b>.</result>
+  </taskbody>
+    </task>

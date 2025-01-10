@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148400">
+    <title>Setting up the build environment</title>
+  <shortdesc>The recommended build environment setup involves installing a standalone DITA-OT
+    instance instead of using the embedded instance supplied with oXygen. This approach makes plugin
+    updates easier.</shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+    <conbody>
+      <p>Setup involves three mandatory steps:</p>
+      <ol>
+        <li><xref keyref="install_dita_workstation"/>
+      </li>
+        <li><xref keyref="install_pdf_stylesheet_plugin"/>
+      </li>
+        <li><xref keyref="setup_oxygen_external_ditaot_plugin"/></li>
+      </ol>
+      <p>If you insist on using the DITA-OT version embedded in oXygen, do not perform the above and
+      see <xref keyref="alternative_ditaot_approach"/> for altenative instuctions.</p>
+</conbody>
+</concept>

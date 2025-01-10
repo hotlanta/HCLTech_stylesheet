@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_fny_k3m_1xb">
+    <title>Reporting stylesheet issues and improvements</title>
+    <shortdesc>You can request feature improvements and bug fixes on the stylesheet. Join the
+            <b>#tech-stylesheet</b> Slack channel or write an email describing your
+        request.</shortdesc>
+    <conbody>
+        <p>When  reporting a bug, provide the following information:</p>
+        <ul id="ul_kqy_djm_1xb">
+            <li>A brief description of the problem</li>
+            <li>The DITA-OT error message, if encountered. (you can send the full DITA-OT log).</li>
+            <li>Pointer to a DITAMAP and DITA topic showcasing the problem.</li>
+            <li>The git repository and branch name containing the DITA sources.</li>
+            <li>If the PDF build fails, also send the <filepath>topic.fo</filepath> file located in
+                the temp directory.</li>
+        </ul>
+        <p>When requesting a feature / improvement, provide the following information:</p>
+        <ul id="ul_gzj_wkm_1xb">
+            <li>The requested feature / improvement.</li>
+            <li>Impacted projects and/or source types.</li>
+            <li>Any workaround currently in place.</li>
+            <li>Pointer to a DITAMAP / DITA topic where the improvement need can be observed in
+                context.</li>
+        </ul>
+    </conbody>
+</concept>

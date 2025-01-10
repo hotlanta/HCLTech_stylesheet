@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148409">
+      <title>Notes</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+      <conbody>
+        <p>You can use the following attributes to control notes:</p>
+        <ul>
+          <li><codeph>outputclass=noimage</codeph> hides the note image and green highlight borders.
+        This can be useful in table cells or other space constrained locations</li>
+        </ul>
+      </conbody>
+    </concept>

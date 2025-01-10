@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148399">
+    <title>DITA build environment basics.</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+    <conbody>
+      <p>Output from DITA sources are produced using the open-source DITA
+Open Toolkit (DITA-OT). If you are using oXygen to build output
+from DITA, oXygen is also calling its embedded DITA-OT
+instance.</p>
+      <p>DITA-OT relies on plugins to produce various output types.
+Plugins can depend on each other: in our case the
+<b>com.hcltech.ctgpdf</b> plugin developed by DTC-E relies on
+the stock <b>org.dita.pdf2</b> plugin.</p>
+      <ul>
+        <li>
+          <b>org.dita.pdf2</b> plugin provides transformation
+scripts creating PDF from DITA files</li>
+        <li>
+          <b>com.hcltech.ctgpdf</b> provides HCLTech-specific styling
+and feature extensions.</li>
+      </ul>
+      <p>oXygen also provides DITA-OT plugins and while some of these are
+necessary for building HTML Webhelp, none are used for producing
+PDF output.</p>
+      <p>Building PDF output for HCLTech using the <b>com.hcltech.ctgpdf</b> plugin and DITA-OT is
+      completely platform- and tool-independent and can be called from oXygen, the Windows CLI, or
+      any CI/CD workflow.</p>
+    </conbody>
+  </concept>

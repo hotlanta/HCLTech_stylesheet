@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/bookmap.dtd"><bookmap outputclass="numbered">
+    <booktitle>
+        <mainbooktitle>Building PDF output for HPE CTG</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <permissions view="all"/>
+        <prodinfo>
+            <prodname>HPE Stylesheet</prodname>
+            <vrmlist>
+                <vrm version="1" release="0"/>
+            </vrmlist>
+            <brand>manwomantablet</brand>
+        </prodinfo>
+        <bookid>
+            <bookpartno>E0323</bookpartno>
+            <edition>First Edition</edition>
+        </bookid>
+    </bookmeta>
+    <frontmatter>
+            <booklists>
+                <toc/>
+                <figurelist/>
+                <tablelist/>
+            </booklists>
+        <preface href="stylesheet_setup/building_pdf_output_for_hpe_ctg_c.dita">
+            <topicref href="stylesheet_setup/version_history_c.dita"/>
+        </preface>
+        </frontmatter>
+    <chapter href="stylesheet_setup/dita_build_environment_basics_c.dita"/>
+    <chapter href="stylesheet_setup/setting_up_the_build_environment_c.dita">
+        <topicref href="stylesheet_setup/installing_dita-ot_on_your_workstation_t.dita"
+            keys="install_dita_workstation"/>
+        <topicref href="stylesheet_setup/installing_the_hpe_pdf_stylesheet_plugin_t.dita"
+            keys="install_pdf_stylesheet_plugin"/>
+        <topicref
+            href="stylesheet_setup/setting_up_oxygen_to_use_the_external_dita-ot_and_plugin_t.dita"
+            keys="setup_oxygen_external_ditaot_plugin"/>
+    </chapter>
+    <chapter href="stylesheet_setup/output_customization_c.dita">
+        <topicref href="stylesheet_setup/notes_c.dita"/>
+        <topicref href="stylesheet_setup/images_c.dita"/>
+        <topicref href="stylesheet_setup/forced_line_break_in_table_cells_c.dita"/>
+        <topicref href="stylesheet_setup/confidentiality_statement_c.dita"/>
+        <topicref href="stylesheet_setup/cover_page_customization_c.dita"/>
+    </chapter>
+    <chapter href="stylesheet_setup/maintaining_stylesheet_c.dita">
+        <topicref href="stylesheet_setup/updating_the_hpe_pdf_plugin_c.dita"/>
+        <topicref href="stylesheet_setup/reporting_issues_c.dita"/>
+    </chapter>
+    <appendix href="stylesheet_setup/additional_information_c.dita">
+        <topicref href="stylesheet_setup/building_dita_output_using_the_command_line_c.dita"/>
+        <topicref
+            href="stylesheet_setup/alternative_approach_using_the_oxygen_dita-ot_instance_t.dita"
+            keys="alternative_ditaot_approach"/>
+    </appendix>
+</bookmap>

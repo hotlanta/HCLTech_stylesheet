@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Toc131148406">
+      <title>Building DITA output using the command line</title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <author/>
+    <author type="contributor">EricSzegedi</author>
+    <critdates>
+      <!--EricSzegedi-->
+      <revised modified="2023-03-31"/>
+    </critdates>
+    <metadata>
+      <prodinfo>
+        <prodname/>
+        <vrmlist>
+          <vrm version=""/>
+        </vrmlist>
+        <component/>
+        <featnum/>
+      </prodinfo>
+    </metadata>
+  </prolog>
+      <conbody>
+        <p>If you want to perform a build quicker than calling it from oXygen or want to quickly
+      validate the installed plugin, perform this
+      command:<codeblock id="codeblock_ejf_mrj_zwb"><b>C:\DITA\dita-ot-3.7.4\bin\dita install -i &lt;input_ditamap&gt; -f hclctgpdf -o &lt;output_folder&gt;</b></codeblock></p>
+        <p>where:</p>
+        <ul>
+          <li><codeph> &lt;input_ditamap&gt;</codeph> is the input ditamap with its full path</li>
+          <li>
+        <codeph>hclctgpdf</codeph> is the transformation type as defined in the plugin. Do not
+        change this value.</li>
+          <li>
+        <codeph>&lt;output_folder&gt;</codeph> is the folder you want to the output PDF to be
+        located. By default this folder is relative to the folder you call the command from.</li>
+        </ul>
+        <p>Optionally, add the <option>-v</option> option to display the build log in the command
+      line. Errors and warnings are displayed by default even without calling this option. You can
+      also direct the log to a standalone file by using CLI pipes (for example, adding <b>&gt;
+        log.txt</b> to the end of your dita command will pipe the output to the log.txt file.)</p>
+        <p>Optionally, add the <option>--propertyfile
+        C:\DITA\dita-ot-3.7.4\plugins\com.hcltech.ctgpdf\ctgpdf.properties</option> option to pass all
+      predefined build parameters to the build process. This option is mandatory if you are building
+      production output.</p>
+        <p>You are highly encouraged to play with the command line DITA command and its options to
+      discover its features and functionality. See the DITA-OT website for a detailed description
+        <xref href="https://www.dita-ot.org/3.7/topics/build-using-dita-command.html" format="html"
+        scope="external"/>.</p>
+      </conbody>
+    </concept>

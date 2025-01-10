@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.hcltech.ctgpdf">
+  <feature extension="package.version" value="1.0.0" />
+  <require plugin="org.dita.pdf2" />
+  <transtype extends="pdf" name="hclctgpdf" >
+  </transtype>
+  <feature extension="ant.import" file="integrator.xml" />
+  <feature extension="dita.transtype.print" value="hclctgpdf" />
+</plugin>

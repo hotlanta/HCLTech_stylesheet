@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:e="com.hcltech.ctgpdf" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:opentopic-func="http://www.idiominc.com/opentopic/exsl/function" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" exclude-result-prefixes="xs e dita-ot ditaarch opentopic opentopic-func">
+<xsl:stylesheet xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:e="com.hpe.ctgpdf" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:opentopic-func="http://www.idiominc.com/opentopic/exsl/function" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" exclude-result-prefixes="xs e dita-ot ditaarch opentopic opentopic-func">
  
 <!-- generic header styling -->
    <xsl:attribute-set name="__header">
@@ -18,7 +18,7 @@
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
       <xsl:attribute name="color">black</xsl:attribute>
       <xsl:attribute name="end-indent">0pt</xsl:attribute>
-      <xsl:attribute name="font-family">GothamHCL-FOP, Arial</xsl:attribute>
+      <xsl:attribute name="font-family">MetricHPE-FOP, Arial</xsl:attribute>
       <xsl:attribute name="font-size">10pt</xsl:attribute>
       <xsl:attribute name="font-style">normal</xsl:attribute>
       <xsl:attribute name="font-weight">normal</xsl:attribute>
@@ -86,7 +86,7 @@
    
 <!-- generic footer styling -->
    <xsl:attribute-set name="__footer__table">
-      <xsl:attribute name="text-align">end</xsl:attribute>
+      <xsl:attribute name="text-align">left</xsl:attribute>
       <xsl:attribute name="margin-left">0.3in</xsl:attribute>
       <xsl:attribute name="margin-right">0.5in</xsl:attribute>
       <xsl:attribute name="end-indent">0pt</xsl:attribute>
@@ -97,13 +97,8 @@
    </xsl:attribute-set>
    
    <xsl:attribute-set name="__footer__logo">
-      <xsl:attribute name="text-align">end</xsl:attribute> -->
-<!--      <xsl:attribute name="text-align">left</xsl:attribute> -->
+      <xsl:attribute name="text-align">right</xsl:attribute>
       <xsl:attribute name="margin-left">0pt</xsl:attribute>
-<!--      <xsl:attribute name="margin-left">auto</xsl:attribute> -->
-      <xsl:attribute name="margin-right">0pt</xsl:attribute>
-<!--      <xsl:attribute name="margin-top">20pt</xsl:attribute> 
-      <xsl:attribute name="margin-bottom">10pt</xsl:attribute> -->     
    </xsl:attribute-set>
      
    <xsl:attribute-set name="__footer__text">

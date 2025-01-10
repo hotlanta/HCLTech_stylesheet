@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
-   xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:e="com.hcltech.ctgpdf"
+   xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:e="com.hpe.ctgpdf"
    xmlns:fo="http://www.w3.org/1999/XSL/Format"
    xmlns:opentopic-func="http://www.idiominc.com/opentopic/exsl/function"
    xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -140,6 +140,12 @@
             <fo:table-column column-width="30%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -152,12 +158,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -169,10 +169,16 @@
    <xsl:template name="insertBodyEvenFooter">
       <fo:static-content flow-name="even-body-footer">
          <fo:table xsl:use-attribute-sets="__body__even__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -185,12 +191,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -202,10 +202,16 @@
    <xsl:template name="insertBodyFirstFooter">
       <fo:static-content flow-name="first-body-footer">
          <fo:table xsl:use-attribute-sets="__body__first__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -218,12 +224,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -235,10 +235,16 @@
    <xsl:template name="insertBodyLastFooter">
       <fo:static-content flow-name="last-body-footer">
          <fo:table xsl:use-attribute-sets="__body__last__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -251,12 +257,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -372,10 +372,16 @@
    <xsl:template name="insertTocOddFooter">
       <fo:static-content flow-name="odd-toc-footer">
          <fo:table xsl:use-attribute-sets="__toc__odd__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -388,12 +394,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -405,10 +405,16 @@
    <xsl:template name="insertTocEvenFooter">
       <fo:static-content flow-name="even-toc-footer">
          <fo:table xsl:use-attribute-sets="__toc__even__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -421,12 +427,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -438,10 +438,16 @@
    <xsl:template name="insertTocFirstFooter">
       <fo:static-content flow-name="first-toc-footer">
          <fo:table xsl:use-attribute-sets="__toc__first__footer">
-            <fo:table-column column-width="70%"/>
-            <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="40%"/>
+            <fo:table-column column-width="60%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -454,12 +460,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -471,10 +471,16 @@
    <xsl:template name="insertTocLastFooter">
       <fo:static-content flow-name="last-toc-footer">
          <fo:table xsl:use-attribute-sets="__toc__last__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -487,12 +493,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -624,7 +624,7 @@
                   <fo:table-cell xsl:use-attribute-sets="__footer__logo">
                      <fo:block>
                         <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
                      </fo:block>
                   </fo:table-cell>
                </fo:table-row>
@@ -657,7 +657,7 @@
                   <fo:table-cell xsl:use-attribute-sets="__footer__logo">
                      <fo:block>
                         <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
                      </fo:block>
                   </fo:table-cell>
                </fo:table-row>
@@ -691,7 +691,7 @@
                   <fo:table-cell xsl:use-attribute-sets="__footer__logo">
                      <fo:block>
                         <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
                      </fo:block>
                   </fo:table-cell>
                </fo:table-row>
@@ -724,7 +724,7 @@
                   <fo:table-cell xsl:use-attribute-sets="__footer__logo">
                      <fo:block>
                         <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
                      </fo:block>
                   </fo:table-cell>
                </fo:table-row>
@@ -812,10 +812,16 @@
    <xsl:template name="insertFrontMatterOddFooter">
       <fo:static-content flow-name="odd-frontmatter-footer">
          <fo:table xsl:use-attribute-sets="__preface__odd__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -828,12 +834,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -844,10 +844,16 @@
    <xsl:template name="insertFrontMatterEvenFooter">
       <fo:static-content flow-name="even-frontmatter-footer">
          <fo:table xsl:use-attribute-sets="__preface__even__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -860,12 +866,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
@@ -877,10 +877,16 @@
    <xsl:template name="insertFrontMatterLastFooter">
       <fo:static-content flow-name="last-frontmatter-footer">
          <fo:table xsl:use-attribute-sets="__preface__last__footer">
-            <fo:table-column column-width="70%"/>
             <fo:table-column column-width="30%"/>
+            <fo:table-column column-width="70%"/>
             <fo:table-body>
                <fo:table-row>
+                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
+                     <fo:block>
+                        <fo:external-graphic
+                           src="url(Customization/OpenTopic/common/artwork/HPEelement.svg)"/>
+                     </fo:block>
+                  </fo:table-cell>
                   <fo:table-cell xsl:use-attribute-sets="__footer__text">
                      <xsl:call-template name="getVariable">
                         <xsl:with-param name="id" select="'Body first footer'"/>
@@ -893,12 +899,6 @@
                            </confidentiality>
                         </xsl:with-param>
                      </xsl:call-template>
-                  </fo:table-cell>
-                  <fo:table-cell xsl:use-attribute-sets="__footer__logo">
-                     <fo:block>
-                        <fo:external-graphic
-                           src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
-                     </fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>

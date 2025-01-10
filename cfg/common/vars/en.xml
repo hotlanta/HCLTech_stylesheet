@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns="http://www.idiominc.com/opentopic/vars">
+   <variable id="On the page"> on page <param ref-name="pagenum"/></variable>
+   <variable id="Page">Page </variable>
+   <variable id="Confidential-training">CONFIDENTIAL – FOR TRAINING PURPOSES ONLY</variable>
+   <variable id="Confidential-partner">CONFIDENTIAL | AUTHORIZED HPE PARTNER USE ONLY</variable>
+   <variable id="Confidential-internal">HPE INTERNAL USE ONLY</variable>
+   <variable id="Body odd header" xml:space="preserve"><param ref-name="title"/><param ref-name="chapter"/><param ref-name="folio"/></variable>
+   <variable id="Body even header" xml:space="preserve"><param ref-name="title"/><param ref-name="chapter"/><param ref-name="folio"/></variable>
+   <variable id="Body first header" xml:space="preserve"><param ref-name="title"/><param ref-name="chapter"/><param ref-name="folio"/></variable>
+   <variable id="Body last header" xml:space="preserve"><param ref-name="title"/><param ref-name="chapter"/><param ref-name="folio"/></variable>
+   <variable id="Preface odd header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Preface even header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Preface first header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Preface last header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Toc odd header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Toc even header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Toc first header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Toc last header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Index odd header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Index even header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Glossary odd header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Glossary even header" xml:space="preserve"><param ref-name="title"/><param ref-name="folio"/></variable>
+   <variable id="Body odd footer" xml:space="preserve"></variable>
+   <variable id="Body even footer" xml:space="preserve"/>
+   <variable id="Body first footer" xml:space="preserve"><param ref-name="confidentiality"/></variable>
+   <variable id="Body last footer" xml:space="preserve"/>
+   <variable id="Preface odd footer" xml:space="preserve"/>
+   <variable id="Preface even footer" xml:space="preserve"/>
+   <variable id="Preface first footer" xml:space="preserve"/>
+   <variable id="Preface last footer" xml:space="preserve"/>
+   <variable id="Toc odd footer" xml:space="preserve"/>
+   <variable id="Toc even footer" xml:space="preserve"/>
+   <variable id="Toc first footer" xml:space="preserve"/>
+   <variable id="Toc last footer" xml:space="preserve"/>
+   <variable id="Index odd footer" xml:space="preserve"/>
+   <variable id="Index even footer" xml:space="preserve"></variable>
+   <variable id="Glossary odd footer" xml:space="preserve"/>
+   <variable id="Glossary even footer" xml:space="preserve"></variable>
+   <variable id="Ordered List Number 1"><param ref-name="number"/>. </variable>
+   <variable id="Ordered List Number 2"><param ref-name="number"/>. </variable>
+   <variable id="Ordered List Number 3"><param ref-name="number"/>. </variable>
+   <variable id="Ordered List Number 4"><param ref-name="number"/>. </variable>
+   <variable id="Ordered List Format 1">1</variable>
+   <variable id="Ordered List Format 2">a</variable>
+   <variable id="Ordered List Format 3">I</variable>
+   <variable id="Ordered List Format 4">1</variable>
+   <variable id="Unordered List bullet 1">•</variable>
+   <variable id="Unordered List bullet 2">-</variable>
+   <variable id="Unordered List bullet 3">-</variable>
+   <variable id="Unordered List bullet 4">-</variable>
+   <variable id="Table of Contents Chapter">Chapter <param ref-name="number"/>: </variable>
+   <variable id="Table of Contents Appendix">Appendix <param ref-name="number"/>: </variable>
+   <variable id="List of Tables">List of tables</variable>
+   <variable id="List of Figures">List of figures</variable>
+   <variable id="Table of Contents Part">Part <param ref-name="number"/>: </variable>
+   <variable id="Table of Contents Preface"></variable>
+   <variable id="Product Version">Release </variable>
+   <variable id="Document Edition"></variable>
+   <variable id="Document Partnumber">Part number: </variable>
+   <variable id="Note">NOTE</variable>
+   <variable id="Notice">NOTICE</variable>
+   <variable id="Important">IMPORTANT</variable>
+   <variable id="Tip">TIP</variable>
+   <variable id="Warning">WARNING</variable>
+   <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/document.svg</variable>
+   <variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/notification.svg</variable>
+   <variable id="attention Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+   <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+   <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+   <variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+   <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/idea.svg</variable>
+   <variable id="important Note Image Path">Customization/OpenTopic/common/artwork/information.svg</variable>
+   <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/idea.svg</variable>
+   <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/information.svg</variable>
+   <variable id="tip Note Image Path">Customization/OpenTopic/common/artwork/idea.svg</variable>
+   <variable id="trouble Note Image Path">Customization/OpenTopic/common/artwork/warning.svg</variable>
+   <variable id="other Note Image Path">Customization/OpenTopic/common/artwork/document.svg</variable>
+   
+</vars>

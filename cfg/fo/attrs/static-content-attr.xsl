@@ -146,7 +146,7 @@
       <xsl:attribute name="font-size">24pt</xsl:attribute>
       <xsl:attribute name="font-weight">bold</xsl:attribute>
       <xsl:attribute name="border-before-style">solid</xsl:attribute>
-      <xsl:attribute name="border-before-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-before-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-after-style">none</xsl:attribute>
       <xsl:attribute name="border-before-width">2pt</xsl:attribute>
       <xsl:attribute name="border-after-width">0pt</xsl:attribute>

@@ -24,7 +24,7 @@
       <xsl:attribute name="border-start-color">black</xsl:attribute>
       <xsl:attribute name="border-start-style">none</xsl:attribute>
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
-      <xsl:attribute name="color">#01A982</xsl:attribute>
+      <xsl:attribute name="color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="font-family">GothamHCL-FOP, Arial</xsl:attribute>
       <xsl:attribute name="font-size">10pt</xsl:attribute>
       <xsl:attribute name="font-style">normal</xsl:attribute>

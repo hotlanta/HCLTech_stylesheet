@@ -115,7 +115,7 @@
 <!-- custom HPE table layout -->
    
    <xsl:attribute-set name="tgroup.thead">
-      <xsl:attribute name="border-after-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-after-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-after-style">solid</xsl:attribute>
       <xsl:attribute name="border-after-width">3pt</xsl:attribute>
    </xsl:attribute-set>

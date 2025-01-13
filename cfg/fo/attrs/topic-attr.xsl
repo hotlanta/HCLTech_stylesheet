@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:e="com.hcltech.ctgpdf" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:opentopic-func="http://www.idiominc.com/opentopic/exsl/function" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" exclude-result-prefixes="xs e dita-ot ditaarch opentopic opentopic-func">
    <xsl:attribute-set name="topic.title">
       <xsl:attribute name="background-color">transparent</xsl:attribute>
-      <xsl:attribute name="border-after-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-after-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-after-style">solid</xsl:attribute>
       <xsl:attribute name="border-after-width">2pt</xsl:attribute>
       <xsl:attribute name="border-before-color">black</xsl:attribute>
@@ -222,16 +222,16 @@
    </xsl:attribute-set>
    <xsl:attribute-set name="example">
       <xsl:attribute name="background-color">transparent</xsl:attribute>
-      <xsl:attribute name="border-after-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-after-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-after-style">solid</xsl:attribute>
       <xsl:attribute name="border-after-width">1pt</xsl:attribute>
-      <xsl:attribute name="border-before-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-before-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-before-style">solid</xsl:attribute>
       <xsl:attribute name="border-before-width">1pt</xsl:attribute>
-      <xsl:attribute name="border-end-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-end-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-end-style">solid</xsl:attribute>
       <xsl:attribute name="border-end-width">1pt</xsl:attribute>
-      <xsl:attribute name="border-start-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-start-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-start-style">solid</xsl:attribute>
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
       <xsl:attribute name="color">black</xsl:attribute>
@@ -394,10 +394,10 @@
       <xsl:attribute name="start-indent">0pt</xsl:attribute>
       <xsl:attribute name="padding-top">3pt</xsl:attribute>
       <xsl:attribute name="padding-bottom">3pt</xsl:attribute>
-      <xsl:attribute name="border-after-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-after-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-after-style">solid</xsl:attribute>
       <xsl:attribute name="border-after-width">1pt</xsl:attribute>
-      <xsl:attribute name="border-before-color">#01A982</xsl:attribute>
+      <xsl:attribute name="border-before-color">#0F5FDC</xsl:attribute>
       <xsl:attribute name="border-before-style">solid</xsl:attribute>
       <xsl:attribute name="border-before-width">1pt</xsl:attribute>
    </xsl:attribute-set>

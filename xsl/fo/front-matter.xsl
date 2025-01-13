@@ -88,7 +88,7 @@
 
 <!-- HPE customization - put green HPE dash on front cover -->
 <!--       <fo:block-container width="0.7in">
-         <fo:block border-before-width="4pt" border-before-style="solid" border-color="#01a982">
+         <fo:block border-before-width="4pt" border-before-style="solid" border-color="#0F5FDC">
          </fo:block>
       </fo:block-container> -->    
 <!-- end of HPE customization -->

@@ -85,7 +85,7 @@ the location of this file.
         <!-- auto-detect fonts -->
         <auto-detect/>
 
-        <font metrics-url="MetricHPE-Thin.xml" kerning="yes" embed-url="MetricHPE-Thin.ttf">
+<!--        <font metrics-url="MetricHPE-Thin.xml" kerning="yes" embed-url="MetricHPE-Thin.ttf">
 	       <font-triplet name="GothamHCL-FOP" style="normal" weight="300"/>
         </font>
         <font metrics-url="MetricHPE-ThinItalic.xml" kerning="yes" embed-url="MetricHPE-ThinItalic.ttf">
@@ -139,7 +139,7 @@ the location of this file.
         </font>
         <font metrics-url="couri.xml" kerning="yes" embed-url="couri.ttf">
 	       <font-triplet name="Courier New" style="italic" weight="400"/>
-        </font>
+        </font>-->
 
       </fonts>
 

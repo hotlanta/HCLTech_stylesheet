@@ -15,7 +15,7 @@
       <xsl:attribute name="border-start-style">none</xsl:attribute>
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
       <xsl:attribute name="color">black</xsl:attribute>
-      <xsl:attribute name="font-family">Courier New</xsl:attribute>
+      <xsl:attribute name="font-family">Arial</xsl:attribute>
       <xsl:attribute name="font-size">9pt</xsl:attribute>
       <xsl:attribute name="font-style">normal</xsl:attribute>
       <xsl:attribute name="font-weight">normal</xsl:attribute>
@@ -34,7 +34,7 @@
    </xsl:attribute-set>
    
    <xsl:attribute-set name="codeph">
-      <xsl:attribute name="font-family">Courier New</xsl:attribute>
+      <xsl:attribute name="font-family">Arial</xsl:attribute>
       <xsl:attribute name="font-size">9pt</xsl:attribute>
    </xsl:attribute-set>
 

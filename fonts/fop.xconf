@@ -71,61 +71,21 @@ the location of this file.
         (normal = 400, bold = 700)
         -->
 
-        <!--
-        <font metrics-url="arial.xml" kerning="yes" embed-url="arial.ttf">
-          <font-triplet name="Arial" style="normal" weight="normal"/>
-          <font-triplet name="ArialMT" style="normal" weight="normal"/>
-        </font>
-        <font metrics-url="arialb.xml" kerning="yes" embed-url="arialb.ttf">
-          <font-triplet name="Arial" style="normal" weight="bold"/>
-          <font-triplet name="ArialMT" style="normal" weight="bold"/>
-        </font>
-        -->
 
         <!-- auto-detect fonts -->
         <auto-detect/>
 
-<!--        <font metrics-url="MetricHPE-Thin.xml" kerning="yes" embed-url="MetricHPE-Thin.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="normal" weight="300"/>
+        <font kerning="yes" embed-url="arial.ttf">
+          <font-triplet name="Arial" style="normal" weight="normal"/>
         </font>
-        <font metrics-url="MetricHPE-ThinItalic.xml" kerning="yes" embed-url="MetricHPE-ThinItalic.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="italic" weight="300"/>
+        <font kerning="yes" embed-url="arialbd.ttf">
+          <font-triplet name="Arial" style="normal" weight="bold"/>
         </font>
-        <font metrics-url="MetricHPE-Light.xml" kerning="yes" embed-url="MetricHPE-Light.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="normal" weight="400"/>
+        <font kerning="yes" embed-url="ariali.ttf">
+          <font-triplet name="Arial" style="italic" weight="normal"/>
         </font>
-        <font metrics-url="MetricHPE-LightItalic.xml" kerning="yes" embed-url="MetricHPE-LightItalic.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="italic" weight="400"/>
-        </font>
-        <font metrics-url="MetricHPE-Regular.xml" kerning="yes" embed-url="MetricHPE-Regular.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="normal" weight="500"/>
-        </font>
-        <font metrics-url="MetricHPE-RegularItalic.xml" kerning="yes" embed-url="MetricHPE-RegularItalic.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="italic" weight="500"/>
-        </font>
-        <font metrics-url="MetricHPE-Medium.xml" kerning="yes" embed-url="MetricHPE-Medium.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="normal" weight="600"/>
-        </font>
-        <font metrics-url="MetricHPE-MediumItalic.xml" kerning="yes" embed-url="MetricHPE-MediumItalic.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="italic" weight="600"/>
-        </font>        
-        <font metrics-url="MetricHPE-Semibold.xml" kerning="yes" embed-url="MetricHPE-Semibold.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="normal" weight="700"/>
-        </font>
-        <font metrics-url="MetricHPE-SemiboldItalic.xml" kerning="yes" embed-url="MetricHPE-SemiboldItalic.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="italic" weight="700"/>
-        </font>
-        <font metrics-url="MetricHPE-Bold.xml" kerning="yes" embed-url="MetricHPE-Bold.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="normal" weight="800"/>
-        </font>
-        <font metrics-url="MetricHPE-BoldItalic.xml" kerning="yes" embed-url="MetricHPE-BoldItalic.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="italic" weight="800"/>
-        </font>
-        <font metrics-url="MetricHPE-Black.xml" kerning="yes" embed-url="MetricHPE-Black.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="normal" weight="900"/>
-        </font>
-        <font metrics-url="MetricHPE-BlackItalic.xml" kerning="yes" embed-url="MetricHPE-BlackItalic.ttf">
-	       <font-triplet name="GothamHCL-FOP" style="italic" weight="900"/>
+        <font kerning="yes" embed-url="arialbi.ttf">
+          <font-triplet name="Arial" style="italic" weight="bold"/>
         </font>
 
         <font metrics-url="cour.xml" kerning="yes" embed-url="cour.ttf">
@@ -139,7 +99,7 @@ the location of this file.
         </font>
         <font metrics-url="couri.xml" kerning="yes" embed-url="couri.ttf">
 	       <font-triplet name="Courier New" style="italic" weight="400"/>
-        </font>-->
+        </font>
 
       </fonts>
 

@@ -88,11 +88,11 @@
    <xsl:attribute-set name="__footer__table">
       <xsl:attribute name="text-align">left</xsl:attribute>
       <xsl:attribute name="margin-left">0.3in</xsl:attribute>
-      <xsl:attribute name="margin-right">0.5in</xsl:attribute>
+      <xsl:attribute name="margin-right">0pt</xsl:attribute>
       <xsl:attribute name="end-indent">0pt</xsl:attribute>
       <xsl:attribute name="space-after">0pt</xsl:attribute>
       <xsl:attribute name="table-layout">fixed</xsl:attribute>
-      <xsl:attribute name="width">185mm</xsl:attribute>
+      <xsl:attribute name="width">190mm</xsl:attribute>
       
    </xsl:attribute-set>
    
@@ -108,7 +108,8 @@
    
    <xsl:attribute-set name="__footer__confidentiality">
       <xsl:attribute name="text-align">left</xsl:attribute>
-      <xsl:attribute name="margin-top">14pt</xsl:attribute>
+      <xsl:attribute name="margin-left">0.2in</xsl:attribute>
+      <xsl:attribute name="margin-top">22pt</xsl:attribute>
       <xsl:attribute name="font-weight">bold</xsl:attribute>
    </xsl:attribute-set>
      

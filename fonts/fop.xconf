@@ -76,19 +76,28 @@ the location of this file.
         <auto-detect/>
 
         <font kerning="yes" embed-url="arial.ttf">
-          <font-triplet name="Arial" style="normal" weight="normal"/>
+          <font-triplet name="Arial" style="normal" weight="500"/>
         </font>
         <font kerning="yes" embed-url="arialbd.ttf">
-          <font-triplet name="Arial" style="normal" weight="bold"/>
+          <font-triplet name="Arial" style="normal" weight="800"/>
         </font>
         <font kerning="yes" embed-url="ariali.ttf">
-          <font-triplet name="Arial" style="italic" weight="normal"/>
+          <font-triplet name="Arial" style="italic" weight="500"/>
         </font>
         <font kerning="yes" embed-url="arialbi.ttf">
-          <font-triplet name="Arial" style="italic" weight="bold"/>
+          <font-triplet name="Arial" style="italic" weight="800"/>
         </font>
         <font kerning="yes" embed-url="arialn.ttf">
-          <font-triplet name="Arial" style="normal" weight="normal"/>
+          <font-triplet name="ArialN" style="normal" weight="400"/>
+        </font>
+        <font kerning="yes" embed-url="arialni.ttf">
+          <font-triplet name="ArialN" style="italic" weight="400"/>
+        </font>
+        <font kerning="yes" embed-url="arialnb.ttf">
+          <font-triplet name="ArialN" style="normal" weight="700"/>
+        </font>
+        <font kerning="yes" embed-url="arialnbi.ttf">
+          <font-triplet name="ArialN" style="italic" weight="700"/>
         </font>
 
         <font metrics-url="cour.xml" kerning="yes" embed-url="cour.ttf">

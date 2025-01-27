@@ -87,6 +87,9 @@ the location of this file.
         <font kerning="yes" embed-url="arialbi.ttf">
           <font-triplet name="Arial" style="italic" weight="bold"/>
         </font>
+        <font kerning="yes" embed-url="arialn.ttf">
+          <font-triplet name="Arial" style="normal" weight="normal"/>
+        </font>
 
         <font metrics-url="cour.xml" kerning="yes" embed-url="cour.ttf">
 	       <font-triplet name="Courier New" style="normal" weight="400"/>

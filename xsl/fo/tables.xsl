@@ -27,6 +27,19 @@
    </xsl:template>
 <!-- end of HPE customization -->
    
+<xsl:template match="*[contains(@class, ' topic/p ')][ancestor::*[contains(@class, ' topic/entry ')]]">
+    <xsl:message>
+        Processing table paragraph:
+        - Class: <xsl:value-of select="@class"/>
+        - Parent: <xsl:value-of select="parent::*/@class"/>
+        - Applying font: ArialN
+    </xsl:message>
+    <fo:block xsl:use-attribute-sets="table.entry.paragraph.properties">
+        <xsl:call-template name="commonattributes"/>
+        <xsl:apply-templates/>
+    </fo:block>
+</xsl:template>
+
 <!-- HPE: enable custom column widths for definition lists -->
    <xsl:template match="*[contains(@class, ' topic/dl ')]">
       <xsl:apply-templates select="*[contains(@class,' ditaot-d/ditaval-startprop ')]" mode="outofline"/>

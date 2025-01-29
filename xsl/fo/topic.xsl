@@ -239,6 +239,16 @@
 <!-- HPE if a paragraph is followed by another paragraph in a list, decrease space-after so it sticks to the preceding list bullet -->
    <xsl:template match="*[contains(@class, ' topic/p ')]">
       <xsl:choose>
+         <!-- Add a specific case for paragraphs in table entries -->
+         <xsl:when test="ancestor::*[contains(@class, ' topic/entry ')]">
+            <!-- Add a debug message to verify this is being matched -->
+            <xsl:message>[DEBUG] Processing paragraph in table entry: 
+                Content start: <xsl:value-of select="substring(., 1, 20)"/>...</xsl:message>
+            <fo:block xsl:use-attribute-sets="p.in.table">
+                <xsl:call-template name="commonattributes"/>
+                <xsl:apply-templates/>
+            </fo:block>
+         </xsl:when>
          <xsl:when
             test="parent::*[contains(@class, ' topic/li ')] and following-sibling::*[contains(@class, ' topic/p ')]">
             <fo:block xsl:use-attribute-sets="p__inlist__firstpara">

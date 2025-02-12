@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="Toc131148408">
-    <title>Output customization</title>
-  <shortdesc></shortdesc>
+  <title>Output customization</title>
+  <shortdesc/>
   <prolog>
     <author/>
     <author type="contributor">EricSzegedi</author>
     <critdates>
       <!--EricSzegedi-->
       <revised modified="2023-03-31"/>
+      <!--EricSzegedi-->
+      <revised modified="2025-02-12"/>
     </critdates>
     <metadata>
       <prodinfo>
@@ -21,8 +23,8 @@
       </prodinfo>
     </metadata>
   </prolog>
-    <conbody>
-    <p>This chapter describes how to control and customize output built by the HPE CTG DITA
+  <conbody>
+    <p>This chapter describes how to control and customize output built by the HCLTech CTG DITA
       stylesheet.</p>
   </conbody>
 </concept>

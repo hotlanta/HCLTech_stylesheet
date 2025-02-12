@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="Toc131148404">
-    <title>Updating the HPE PDF plugin</title>
+  <title>Updating the HCLTech PDF plugin</title>
   <shortdesc>To fetch stylesheet updates and bug fixes on your workstation / build environment, you
-    must update your cloned HPE PDF plugin. </shortdesc>
+    must update your cloned HCLTech PDF plugin. </shortdesc>
   <prolog>
     <author/>
     <author type="contributor">EricSzegedi</author>
     <critdates>
       <!--EricSzegedi-->
       <revised modified="2023-03-31"/>
+      <!--EricSzegedi-->
+      <revised modified="2025-02-12"/>
     </critdates>
     <metadata>
       <prodinfo>
@@ -22,16 +24,16 @@
       </prodinfo>
     </metadata>
   </prolog>
-    <conbody>
-      <p>Perform a git pull on the <filepath>C:\DITA\dita-ot-3.7.4\plugins\com.hpe.ctgpdf</filepath>
-      folder to fetch updates.</p>
-      <p>The team will notify you when critical updates are
-necessary.</p>
+  <conbody>
+    <p>Perform a git pull on the
+        <filepath>C:\DITA\dita-ot-3.7.4\plugins\com.hcltech.ctgpdf</filepath> folder to fetch
+      updates.</p>
+    <p>The team will notify you when critical updates are necessary.</p>
     <note id="note_c44_zmj_zwb">
       <p>If transformation attributes change with the stylesheet update and you are building output
         from oXygen, it is not sufficient to perform a git update on the plugin. </p>
       <p>You will also have to perform the import procedure again to fetch the latest configuration. </p>
       <p>The team will notify if this action is also required.</p>
     </note>
-    </conbody>
-  </concept>
+  </conbody>
+</concept>

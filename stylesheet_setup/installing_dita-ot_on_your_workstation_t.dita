@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="Ref129261115">
-      <title>Installing DITA-OT on your workstation</title>
+  <title>Installing DITA-OT on your workstation</title>
   <prolog>
     <author/>
     <author type="contributor">EricSzegedi</author>
     <critdates>
       <!--EricSzegedi-->
       <revised modified="2023-03-31"/>
+      <!--EricSzegedi-->
+      <revised modified="2025-02-12"/>
     </critdates>
     <metadata>
       <prodinfo>
@@ -21,9 +23,9 @@
     </metadata>
   </prolog>
   <taskbody>
-    <context id="context_u53_vpj_zwg">The HPE plugin is developed for DITA-OT version 3.7.4. While it
-may work with other versions, for compatibility reasons it is
-recommended to use this DITA-OT version.</context>
+    <context id="context_u53_vpj_zwg">The HCLTech plugin is developed for DITA-OT version 3.7.4.
+      While it may work with other versions, for compatibility reasons it is recommended to use this
+      DITA-OT version.</context>
     <steps>
       <step>
         <cmd>Download DITA-OT 3.7.4 from the DITA-OT website.</cmd>
@@ -36,6 +38,9 @@ recommended to use this DITA-OT version.</context>
         <cmd>Unzip the archive to <filepath>C:\DITA</filepath></cmd>
       </step>
     </steps>
-    <result id="result_ffr_bsj_zwb"><p>Archive contents are extracted to the <filepath>C:\DITA\dita-ot-3.7.4</filepath> folder.</p></result>
+    <result id="result_ffr_bsj_zwb">
+      <p>Archive contents are extracted to the <filepath>C:\DITA\dita-ot-3.7.4</filepath>
+        folder.</p>
+    </result>
   </taskbody>
 </task>

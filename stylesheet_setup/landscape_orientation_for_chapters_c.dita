@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="landscape_orientation_for_chapters_c">
+ <title>Landscape orientation for chapters</title>
+ <shortdesc/>
+ <prolog>
+  <author/>
+  <author type="creator">EricSzegedi</author>
+  <critdates>
+   <created date="2024-11-22"/>
+   <!--EricSzegedi-->
+   <revised modified="2024-11-22"/>
+  </critdates>
+  <metadata>
+   <prodinfo>
+    <prodname/>
+    <vrmlist>
+     <vrm version=""/>
+    </vrmlist>
+    <component/>
+    <featnum/>
+   </prodinfo>
+  </metadata>
+ </prolog>
+ <conbody>
+  <p>Apply <codeph>outputclass="landscape"</codeph> on the top-level topic of a chapter to display
+   the full chapter in landscape orientation.</p>
+  <note id="note_opp_t4t_ldc">Due to a limitation the attribute must be applied on the topic root
+   element, not the topicref in the DITAMAP.</note>
+ </conbody>
+</concept>

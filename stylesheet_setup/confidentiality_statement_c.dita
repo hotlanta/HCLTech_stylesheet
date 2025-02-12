@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="Toc131148411">
-      <title>Confidentiality statement</title>
-  <shortdesc></shortdesc>
+  <title>Confidentiality statement</title>
+  <shortdesc/>
   <prolog>
     <author/>
     <author type="contributor">EricSzegedi</author>
     <critdates>
       <!--EricSzegedi-->
       <revised modified="2023-03-31"/>
+      <!--EricSzegedi-->
+      <revised modified="2025-02-12"/>
     </critdates>
     <metadata>
       <prodinfo>
@@ -21,10 +23,9 @@
       </prodinfo>
     </metadata>
   </prolog>
-      <conbody>
-        <p>Use the view attribute of the permissions element set in the
-DITAMAP metadata to control confidentiality notices.
-Confidentiality notices appear in the footer of each page.</p>
+  <conbody>
+    <p>Use the view attribute of the permissions element set in the DITAMAP metadata to control
+      confidentiality notices. Confidentiality notices appear in the footer of each page.</p>
     <codeblock id="codeblock_m42_34j_zwb">&lt;bookmap&gt;
     &lt;booktitle&gt;
         &lt;mainbooktitle&gt;Document Title&lt;/mainbooktitle&gt;
@@ -33,13 +34,13 @@ Confidentiality notices appear in the footer of each page.</p>
         &lt;permissions view="internal"/>
     &lt;/bookmeta&gt;
     &lt;booktitle></codeblock>
-        <p>Applicable values are the following:</p>
-        <table>
+    <p>Applicable values are the following:</p>
+    <table>
       <title>View attribute</title>
-          <tgroup cols="3">
-            <colspec colname="col1" colnum="1" colwidth="2.0*"/>
-            <colspec colname="col2" colnum="2" colwidth="1.0*"/>
-            <colspec colname="col3" colnum="3" colwidth="2.0*"/>
+      <tgroup cols="3">
+        <colspec colname="col1" colnum="1" colwidth="2.0*"/>
+        <colspec colname="col2" colnum="2" colwidth="1.0*"/>
+        <colspec colname="col3" colnum="3" colwidth="2.0*"/>
         <thead>
           <row>
             <entry>Target audience</entry>
@@ -47,35 +48,33 @@ Confidentiality notices appear in the footer of each page.</p>
             <entry>Confidentiality notice</entry>
           </row>
         </thead>
-            <tbody>
-              <row>
-                <entry>Document is for customers or the general public
-<b>and</b> does not have any confidential or proprietary
-information</entry>
-                <entry><codeph>all</codeph> or unset</entry>
-                <entry>N/A</entry>
-              </row>
-              <row>
-                <entry>Document is for HPE employees <b>and is not</b> to be
-shared with customers or partners</entry>
-                <entry><codeph>internal</codeph></entry>
-                <entry>HPE Internal Use Only</entry>
-              </row>
-              <row>
-                <entry>Document is for HPE employees <b>and</b> partners who
-have agreed to keep it confidential <b>and is not</b> to
-be shared with customers</entry>
-                <entry><codeph>entitled</codeph></entry>
-                <entry>Confidential | Authorized HPE Partner Use Only</entry>
-              </row>
-              <row>
-                <entry>Document is for training HPE Employees, Outsourced, Channel
-Partners and Customer Education training material</entry>
-                <entry><codeph>classified</codeph></entry>
-                <entry>Confidential – For Training Purposes Only</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </table>
-      </conbody>
-    </concept>
+        <tbody>
+          <row>
+            <entry>Document is for customers or the general public <b>and</b> does not have any
+              confidential or proprietary information</entry>
+            <entry><codeph>all</codeph> or unset</entry>
+            <entry>N/A</entry>
+          </row>
+          <row>
+            <entry>Document is for HCLTech employees <b>and is not</b> to be shared with customers
+              or partners</entry>
+            <entry><codeph>internal</codeph></entry>
+            <entry>HCLTech Internal Use Only</entry>
+          </row>
+          <row>
+            <entry>Document is for HCLTech employees <b>and</b> partners who have agreed to keep it
+              confidential <b>and is not</b> to be shared with customers</entry>
+            <entry><codeph>entitled</codeph></entry>
+            <entry>Confidential | Authorized HCLTech Partner Use Only</entry>
+          </row>
+          <row>
+            <entry>Document is for training HCLTech Employees, Outsourced, Channel Partners and
+              Customer Education training material</entry>
+            <entry><codeph>classified</codeph></entry>
+            <entry>Confidential – For Training Purposes Only</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

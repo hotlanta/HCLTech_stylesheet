@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="10.980208mm"
-   height="8.6651039mm"
-   viewBox="0 0 10.980208 8.6651038"
+   width="10.04mm"
+   height="8.1999998mm"
+   viewBox="0 0 10.039999 8.1999996"
    version="1.1"
    id="svg3810"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="warning.svg">
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="warning.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3804" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="52.016224"
-     inkscape:cy="1.1468196"
+     inkscape:cx="51.991288"
+     inkscape:cy="11.269514"
      inkscape:document-units="mm"
      inkscape:current-layer="g3822"
      showgrid="false"
@@ -36,10 +36,13 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="1072"
-     inkscape:window-maximized="1" />
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata3807">
     <rdf:RDF>
@@ -48,7 +51,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,22 +64,22 @@
        transform="matrix(0.26458333,0,0,0.26458333,-27.356027,143.27708)">
       <g
          id="g3871"
-         transform="translate(-10.459071,-9.4146659)">
+         transform="matrix(0.9132851,0,0,0.94602238,-10.459071,-9.4146659)">
         <path
            id="path3865"
            d="m 21.75,23.75 c -0.75,0 -1.5,0.75 -1.5,1.5 0,0.75 0.75,1.5 1.5,1.5 0.75,0 1.5,-0.75 1.5,-1.5 0,-0.75 -0.75,-1.5 -1.5,-1.5 z"
            inkscape:connector-curvature="0"
-           style="fill:#0F5FDC" />
+           style="fill:#0f5fdc" />
         <path
            id="path3867"
            d="M 21.75,0 0,32.75 h 41.5 z m 0,3.5 L 38,30.75 H 3.5 Z"
            inkscape:connector-curvature="0"
-           style="fill:#0F5FDC" />
+           style="fill:#0f5fdc" />
         <path
            id="path3869"
            d="m 22.75,11.75 h -2 v 10 h 2 z"
            inkscape:connector-curvature="0"
-           style="fill:#0F5FDC" />
+           style="fill:#0f5fdc" />
       </g>
     </g>
   </g>

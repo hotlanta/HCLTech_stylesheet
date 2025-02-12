@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="building_pdf_output_for_hpe_ctg">
-    <title>About this guide</title>
-  <shortdesc></shortdesc>
+  <title>About this guide</title>
+  <shortdesc/>
   <prolog>
     <author/>
     <author type="contributor">EricSzegedi</author>
     <critdates>
       <!--EricSzegedi-->
       <revised modified="2023-03-31"/>
+      <!--EricSzegedi-->
+      <revised modified="2025-02-12"/>
     </critdates>
     <metadata>
       <prodinfo>
@@ -22,7 +24,7 @@
     </metadata>
   </prolog>
   <conbody>
-      <p>This document describes how to install the HPE CTG DITA
-stylesheet and how to build PDF output.</p>
+    <p>This document describes how to install the HCLTech CTG DITA stylesheet and how to build PDF
+      output.</p>
   </conbody>
-  </concept>
+</concept>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="Ref129261133">
-      <title>Installing the HCLTech PDF stylesheet plugin</title>
+  <title>Installing the HCLTech PDF stylesheet plugin</title>
   <shortdesc/>
   <prolog>
     <author/>
@@ -9,6 +9,8 @@
     <critdates>
       <!--EricSzegedi-->
       <revised modified="2023-03-31"/>
+      <!--EricSzegedi-->
+      <revised modified="2025-02-12"/>
     </critdates>
     <metadata>
       <prodinfo>
@@ -32,11 +34,9 @@
       <step>
         <cmd>Create the <filepath>com.hcltech.ctgpdf</filepath> folder.</cmd>
       </step>
-       <step>
-        <cmd>Git clone the contents <xref format="html"
-            href="https://github.hpe.com/hpe/cms-techdocs-dita-stylesheet.git" scope="external"
-            >https://github.hpe.com/hpe/cms-techdocs-dita-stylesheet.git</xref> to the folder
-          created in the preceding step.</cmd>
+      <step>
+        <cmd>Git clone the contents <xref href="https://github.com/hotlanta/HCLTech_stylesheet"
+            format="html" scope="external"/> to the folder created in the preceding step.</cmd>
         <info>
           <note id="note_dxr_qtj_zwb">
             <ul id="ul_axp_ynm_1xb">
@@ -49,21 +49,28 @@
                 2.2.1.</li>
             </ul>
           </note>
-          <note id="note_tgp_b5j_zwb" type="tip">Use the command <codeph>git clone
-              git@github.hpe.com:hpe/cms-techdocs-dita-stylesheet.git .</codeph><p>to clone the repo
-              with only the contents (and then there won't be a top level folder such as
-              cms-techdocs-dita-stylesheet created). The <codeph> .</codeph> at the end is what is
-              needed for this.</p></note>
+          <note id="note_tgp_b5j_zwb" type="tip">
+            <p>Use the command <codeph>git clone git@github.com:hotlanta/HCLTech_stylesheet.git
+                .</codeph> to clone the repo with only the contents (and then there won't be a top
+              level folder such as cms-techdocs-dita-stylesheet created). The <codeph> .</codeph> at
+              the end is what is needed for this.</p>
+          </note>
         </info>
       </step>
-                  <step>
-                    <cmd>Integrate the new plugin. This is easiest done using the command line.</cmd>
-                    <info><p>In a Windows command line, execute <cmdname>C:\DITA\dita-ot-3.7.4\bin\dita install</cmdname>.</p>
-        <p>You must receive the response: <b>Added com.hcltech.ctgpdf</b>.</p></info></step>
+      <step>
+        <cmd>Integrate the new plugin. This is easiest done using the command line.</cmd>
+        <info>
+          <p>In a Windows command line, execute <cmdname>C:\DITA\dita-ot-3.7.4\bin\dita
+              install</cmdname>.</p>
+          <p>You must receive the response: <b>Added com.hcltech.ctgpdf</b>.</p>
+        </info>
+      </step>
     </steps>
-    <result id="result_ffr_bsj_zww"><p>The plugin is integrated and ready to use. You can validate this with the command:
+    <result id="result_ffr_bsj_zww">
+      <p>The plugin is integrated and ready to use. You can validate this with the command:
         <codeblock id="codeblock_wqd_vtj_zwb">C:\DITA\dita-ot-3.7.4\bin\dita transtypes</codeblock></p>
       <p>The list must include <b><codeph>hclctgpdf</codeph></b>, which is the transformation type
-        defined in the plugin.</p></result>
+        defined in the plugin.</p>
+    </result>
   </taskbody>
-    </task>
+</task>

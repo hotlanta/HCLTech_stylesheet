@@ -3,8 +3,8 @@
    <variable id="On the page"> on page <param ref-name="pagenum"/></variable>
    <variable id="Page">Page </variable>
    <variable id="Confidential-training">CONFIDENTIAL – FOR TRAINING PURPOSES ONLY</variable>
-   <variable id="Confidential-partner">CONFIDENTIAL | AUTHORIZED HPE PARTNER USE ONLY</variable>
-   <variable id="Confidential-internal">HPE INTERNAL USE ONLY</variable>
+   <variable id="Confidential-partner">CONFIDENTIAL | AUTHORIZED HCLTech PARTNER USE ONLY</variable>
+   <variable id="Confidential-internal">HCLTech INTERNAL USE ONLY</variable>
    <variable id="Body odd header" xml:space="preserve"><param ref-name="title"/><param ref-name="chapter"/><param ref-name="folio"/></variable>
    <variable id="Body even header" xml:space="preserve"><param ref-name="title"/><param ref-name="chapter"/><param ref-name="folio"/></variable>
    <variable id="Body first header" xml:space="preserve"><param ref-name="title"/><param ref-name="chapter"/><param ref-name="folio"/></variable>

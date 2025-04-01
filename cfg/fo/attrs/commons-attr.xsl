@@ -5,7 +5,7 @@
       <xsl:attribute name="force-page-count">auto</xsl:attribute>
    </xsl:attribute-set>
    <xsl:attribute-set name="__fo__root">
-      <xsl:attribute name="font-family">Arial</xsl:attribute>
+      <xsl:attribute name="font-family">HCLTechRoobert-FOP, Arial</xsl:attribute>
       <xsl:attribute name="color">black</xsl:attribute>
       <xsl:attribute name="text-align">start</xsl:attribute>
       <xsl:attribute name="id" select="$e:root-id"/>
@@ -25,7 +25,7 @@
       <xsl:attribute name="border-start-style">none</xsl:attribute>
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
       <xsl:attribute name="color">#0F5FDC</xsl:attribute>
-      <xsl:attribute name="font-family">Arial</xsl:attribute>
+      <xsl:attribute name="font-family">HCLTechRoobert-FOP, Arial</xsl:attribute>
       <xsl:attribute name="font-size">10pt</xsl:attribute>
       <xsl:attribute name="font-style">normal</xsl:attribute>
       <xsl:attribute name="font-weight">normal</xsl:attribute>
@@ -49,7 +49,7 @@
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
       <xsl:attribute name="color">black</xsl:attribute>
       <xsl:attribute name="end-indent">0pt</xsl:attribute>
-      <xsl:attribute name="font-family">Arial</xsl:attribute>
+      <xsl:attribute name="font-family">HCLTechRoobert-FOP, Arial</xsl:attribute>
       <xsl:attribute name="font-size">10pt</xsl:attribute>
       <xsl:attribute name="font-style">normal</xsl:attribute>
       <xsl:attribute name="font-weight">normal</xsl:attribute>
@@ -64,6 +64,6 @@
       <xsl:attribute name="text-decoration">none</xsl:attribute>
    </xsl:attribute-set>
    <xsl:attribute-set name="common.title">
-      <xsl:attribute name="font-family">Arial</xsl:attribute>
+      <xsl:attribute name="font-family">HCLTechRoobert-FOP, Arial</xsl:attribute>
    </xsl:attribute-set>
 </xsl:stylesheet>

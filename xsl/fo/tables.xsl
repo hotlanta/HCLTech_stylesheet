@@ -32,7 +32,7 @@
         Processing table paragraph:
         - Class: <xsl:value-of select="@class"/>
         - Parent: <xsl:value-of select="parent::*/@class"/>
-        - Applying font: ArialN
+        - Applying font: HCLTechRoobert-FOP, ArialN
     </xsl:message>
     <fo:block xsl:use-attribute-sets="table.entry.paragraph.properties">
         <xsl:call-template name="commonattributes"/>

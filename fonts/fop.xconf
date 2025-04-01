@@ -75,29 +75,41 @@ the location of this file.
         <!-- auto-detect fonts -->
         <auto-detect/>
 
-        <font kerning="yes" embed-url="arial.ttf">
-          <font-triplet name="Arial" style="normal" weight="500"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-ExtraBold.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="normal" weight="300"/>
         </font>
-        <font kerning="yes" embed-url="arialbd.ttf">
-          <font-triplet name="Arial" style="normal" weight="800"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-ExtraBoldItalic.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="italic" weight="300"/>
         </font>
-        <font kerning="yes" embed-url="ariali.ttf">
-          <font-triplet name="Arial" style="italic" weight="500"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-Light.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="normal" weight="400"/>
         </font>
-        <font kerning="yes" embed-url="arialbi.ttf">
-          <font-triplet name="Arial" style="italic" weight="800"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-LightItalic.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="italic" weight="400"/>
         </font>
-        <font kerning="yes" embed-url="arialn.ttf">
-          <font-triplet name="ArialN" style="normal" weight="400"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-Regular.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="normal" weight="500"/>
         </font>
-        <font kerning="yes" embed-url="arialni.ttf">
-          <font-triplet name="ArialN" style="italic" weight="400"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-RegularItalic.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="italic" weight="500"/>
         </font>
-        <font kerning="yes" embed-url="arialnb.ttf">
-          <font-triplet name="ArialN" style="normal" weight="700"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-Medium.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="normal" weight="600"/>
         </font>
-        <font kerning="yes" embed-url="arialnbi.ttf">
-          <font-triplet name="ArialN" style="italic" weight="700"/>
+        <font kerning="yes" embed-url="HCLTechRoobert-MediumItalic.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="italic" weight="600"/>
+        </font>        
+        <font kerning="yes" embed-url="HCLTechRoobert-Heavy.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="normal" weight="700"/>
+        </font>
+        <font kerning="yes" embed-url="HCLTechRoobert-HeavyItalic.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="italic" weight="700"/>
+        </font>
+        <font kerning="yes" embed-url="HCLTechRoobert-Bold.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="normal" weight="800"/>
+        </font>
+        <font kerning="yes" embed-url="HCLTechRoobert-BoldItalic.ttf">
+	       <font-triplet name="HCLTechRoobert-FOP" style="italic" weight="800"/>
         </font>
 
         <font metrics-url="cour.xml" kerning="yes" embed-url="cour.ttf">

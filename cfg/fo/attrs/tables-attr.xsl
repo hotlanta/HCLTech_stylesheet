@@ -16,7 +16,7 @@
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
       <xsl:attribute name="color">black</xsl:attribute>
       <xsl:attribute name="end-indent">0pt</xsl:attribute>
-      <xsl:attribute name="font-family">ArialN</xsl:attribute>
+      <xsl:attribute name="font-family">HCLTechRoobert-FOP, ArialN</xsl:attribute>
       <xsl:attribute name="font-size">10pt</xsl:attribute>
       <xsl:attribute name="font-style">normal</xsl:attribute>
       <xsl:attribute name="font-weight">normal</xsl:attribute>
@@ -52,7 +52,7 @@
       <xsl:attribute name="border-start-width">1pt</xsl:attribute>
       <xsl:attribute name="color">black</xsl:attribute>
       <xsl:attribute name="end-indent">0pt</xsl:attribute>
-      <xsl:attribute name="font-family">ArialN</xsl:attribute>
+      <xsl:attribute name="font-family">HCLTechRoobert-FOP, ArialN</xsl:attribute>
       <xsl:attribute name="font-size">10pt</xsl:attribute>
       <xsl:attribute name="font-style">normal</xsl:attribute>
       <xsl:attribute name="font-weight">normal</xsl:attribute>
@@ -80,24 +80,24 @@
    </xsl:attribute-set>
    
 <xsl:attribute-set name="table.entry.paragraph.properties" use-attribute-sets="p">
-    <xsl:attribute name="font-family">ArialN</xsl:attribute>
+    <xsl:attribute name="font-family">HCLTechRoobert-FOP, ArialN</xsl:attribute>
     <xsl:attribute name="font-weight">400</xsl:attribute>
 </xsl:attribute-set>
 
 <xsl:attribute-set name="p">
     <!-- First, import the default paragraph properties -->
-    <xsl:attribute name="font-family">Arial</xsl:attribute>
+    <xsl:attribute name="font-family">HCLTechRoobert-FOP, Arial</xsl:attribute>
     <!-- Other default paragraph properties -->
 </xsl:attribute-set>
 
 <!-- Create a special attribute set for table paragraphs that overrides the base 'p' set -->
 <xsl:attribute-set name="p.in.table" use-attribute-sets="p">
-    <xsl:attribute name="font-family">ArialN</xsl:attribute>
+    <xsl:attribute name="font-family">HCLTechRoobert-FOP, ArialN</xsl:attribute>
 </xsl:attribute-set>
 
 <!-- Modify the existing p__in__table attribute set if it exists -->
 <xsl:attribute-set name="p__in__table">
-    <xsl:attribute name="font-family">ArialN</xsl:attribute>
+    <xsl:attribute name="font-family">HCLTechRoobert-FOP, ArialN</xsl:attribute>
 </xsl:attribute-set>
 
    <xsl:attribute-set name="thead.row.entry">

@@ -171,9 +171,9 @@
          <xsl:otherwise>
           -->
           <fo:block-container absolute-position="absolute"
-               background-image="Customization/OpenTopic/common/artwork/background_{$backImage}.jpg"
+               background-image="Customization/OpenTopic/common/artwork/hpe_cover.jpg"
                background-repeat="no-repeat" background-position="0,0"
-               height="6in" width="7.27in" top="5in" left="0in">
+               height="3.5in" width="7.27in" top="7.2in" left="0in">
                <fo:block/>
             </fo:block-container>         
         <!--

@@ -13,7 +13,7 @@ See the accompanying LICENSE file for applicable license.
     version="2.0">
 
   <xsl:attribute-set name="__lotf__title" use-attribute-sets="__lotf__content">
-    <xsl:attribute name="font-family">HCLTechRoobert-FOP, Arial</xsl:attribute>
+    <xsl:attribute name="font-family">Arial</xsl:attribute>
   </xsl:attribute-set>
   
   <xsl:attribute-set name ="__lotf__content" use-attribute-sets="base-font __toc__topic__content__booklist">

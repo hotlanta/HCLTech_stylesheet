@@ -13,7 +13,7 @@
       
 <!-- HCLTech customization - put company logo on front cover -->
       <fo:block xsl:use-attribute-sets="__frontmatter__logo">
-         <fo:external-graphic src="url(Customization/OpenTopic/common/artwork/HCLTechLogo.svg)"/>
+         <fo:external-graphic src="url(Customization/OpenTopic/common/artwork/HCLTechLogo_supercharge.svg)" content-width="3in" content-height="1.5in" scaling="uniform"/>
       </fo:block>
 <!-- end of HCLTech customization -->
       
@@ -171,9 +171,9 @@
          <xsl:otherwise>
           -->
           <fo:block-container absolute-position="absolute"
-               background-image="Customization/OpenTopic/common/artwork/hpe_cover.jpg"
+               background-image="Customization/OpenTopic/common/artwork/background_{$backImage}.jpg"
                background-repeat="no-repeat" background-position="0,0"
-               height="3.5in" width="7.27in" top="7.2in" left="0in">
+               height="6in" width="7.27in" top="5in" left="0in">
                <fo:block/>
             </fo:block-container>         
         <!--

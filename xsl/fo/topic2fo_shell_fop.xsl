@@ -51,6 +51,7 @@
    <xsl:import href="plugin:com.hcltech.ctgpdf:cfg/fo/attrs/front-matter-attr.xsl"/>
    <xsl:import href="plugin:org.dita.pdf2:xsl/fo/front-matter.xsl"/>
    <xsl:import href="plugin:com.hcltech.ctgpdf:xsl/fo/front-matter.xsl"/>
+   <xsl:import href="plugin:com.hcltech.ctgpdf:xsl/fo/custom.xsl"/>
    <xsl:import href="plugin:org.dita.pdf2:xsl/fo/preface.xsl"/>
    <xsl:import href="plugin:org.dita.pdf2:cfg/fo/attrs/map-elements-attr.xsl"/>
    <xsl:import href="plugin:org.dita.pdf2:xsl/fo/map-elements.xsl"/>

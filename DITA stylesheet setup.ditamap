@@ -11,11 +11,11 @@
             <vrmlist>
                 <vrm version="1" release="0"/>
             </vrmlist>
-            <brand>manwomantablet</brand>
+            <brand>womancitylights</brand>
         </prodinfo>
         <bookid>
-            <bookpartno>E0225</bookpartno>
-            <edition>Fifth Edition</edition>
+            <bookpartno>E0525</bookpartno>
+            <edition>Sixth Edition</edition>
         </bookid>
     </bookmeta>
     <frontmatter>
@@ -37,6 +37,9 @@
         <topicref
             href="stylesheet_setup/setting_up_oxygen_to_use_the_external_dita-ot_and_plugin_t.dita"
             keys="setup_oxygen_external_ditaot_plugin"/>
+        <topicref href="stylesheet_setup/installing_dita_topic_templates_t.dita">
+            <topicref href="stylesheet_setup/recommended_metadata_fields_c.dita"/>
+        </topicref>
     </chapter>
     <chapter href="stylesheet_setup/output_customization_c.dita">
         <topicref href="stylesheet_setup/notes_c.dita"/>

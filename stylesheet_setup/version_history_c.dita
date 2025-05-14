@@ -4,13 +4,14 @@
   <title>Version history</title>
   <shortdesc/>
   <prolog>
-    <author/>
     <author type="contributor">EricSzegedi</author>
     <critdates>
       <!--EricSzegedi-->
       <revised modified="2023-03-31"/>
       <!--EricSzegedi-->
       <revised modified="2025-02-12"/>
+      <!--EricSzegedi-->
+      <revised modified="2025-05-14"/>
     </critdates>
     <metadata>
       <prodinfo>
@@ -69,6 +70,12 @@
             <entry>12 February 2025</entry>
             <entry>Eric Szegedi</entry>
             <entry>Updated for HCLTech</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>14 May 2025</entry>
+            <entry>Eric Szegedi</entry>
+            <entry>Added details on DITA topic templates and cover page images</entry>
           </row>
         </tbody>
       </tgroup>

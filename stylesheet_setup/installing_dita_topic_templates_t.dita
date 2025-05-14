@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installing_dita_topic_templates_t">
+    <title>Installing DITA topic templates</title>
+    <shortdesc/>
+    <prolog>
+        <author type="creator">EricSzegedi</author>
+        <critdates>
+            <created date="2025-05-14"/>
+            <!--EricSzegedi-->
+            <revised modified="2025-05-14"/>
+        </critdates>
+        <metadata>
+            <prodinfo>
+                <prodname/>
+                <vrmlist>
+                    <vrm version=""/>
+                </vrmlist>
+                <component/>
+                <featnum/>
+            </prodinfo>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>In Oxygen Author, click <menucascade>
+                        <uicontrol>Options</uicontrol>
+                        <uicontrol>Preferences</uicontrol>
+                        <uicontrol>Document Templates</uicontrol>
+                    </menucascade>.</cmd>
+                <info>
+                    <fig id="fig_tx3_1pd_3fc">
+                        <title>Add Document Templates</title>
+                        <image placement="break" href="images/doc_template.png" width="16cm"
+                            id="image_b5b_4kd_3fc"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>New</uicontrol> and navigate to where the templates are stored
+                    –
+                        <filepath>c:\DITA\dita-ot-3.7.4\plugins\com.hcltech.ctgpdf\oXygen_resources\topic_templates\</filepath>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol> twice to save your changes.</cmd>
+            </step>
+        </steps>
+        <result id="result_zv5_qjd_3fc">The templates appear in the
+                <uicontrol>topic_templates</uicontrol> group in the <uicontrol>New...</uicontrol>
+            dialog of Oxygen Author.<fig id="fig_etf_z4d_3fc">
+                <title>Choose a file template</title>
+                <image placement="break" href="images/new_template.png" width="12cm"
+                    id="image_tfw_4kd_3fc"/>
+            </fig></result>
+    </taskbody>
+</task>
